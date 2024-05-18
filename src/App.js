@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import StudentComponent from './StudentComponent';
+import StudentComponentClass from './StudentComponentClass';
+import StudnetFunctionEvent from './StudentFunctionEvent';
+import StudentFunctionEventClass from './StudentFunctionEventClass';
+import StudentPropsParentComponent from './StudentPropsParentComponent';
+import StudentPropsParentComponentClass from './StudentPropsParentComponentClass';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <StudentComponent /> */}
+      {/* <StudentComponentClass /> */}
+      {/* <StudnetFunctionEvent /> */}
+      {/* <StudentFunctionEventClass /> */}
+      {/* <StudentPropsParentComponent /> */}
+      <StudentPropsParentComponentClass />
     </div>
   );
 }
