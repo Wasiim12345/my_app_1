@@ -6,6 +6,9 @@ import StudnetFunctionEvent from './StudentFunctionEvent';
 import StudentFunctionEventClass from './StudentFunctionEventClass';
 import StudentPropsParentComponent from './StudentPropsParentComponent';
 import StudentPropsParentComponentClass from './StudentPropsParentComponentClass';
+import StudentState from './StudentState';
+import StudentUseState from './StudentUseState';
+import StudentStateClass from './StudentStateClass';
 
 function App() {
   return (
@@ -15,7 +18,10 @@ function App() {
       {/* <StudnetFunctionEvent /> */}
       {/* <StudentFunctionEventClass /> */}
       {/* <StudentPropsParentComponent /> */}
-      <StudentPropsParentComponentClass />
+      {/* <StudentPropsParentComponentClass /> */}
+      {/* <StudentState /> */}
+      {/* <StudentUseState /> */}
+      <StudentStateClass />
     </div>
   );
 }
