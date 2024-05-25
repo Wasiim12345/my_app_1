@@ -9,6 +9,9 @@ import StudentPropsParentComponentClass from './StudentPropsParentComponentClass
 import StudentState from './StudentState';
 import StudentUseState from './StudentUseState';
 import StudentStateClass from './StudentStateClass';
+import StudentGetInputBoxData from './StudentGetInputBoxData';
+import StudentGetInputBoxDataButton from './StudentGetInputBoxDataButton';
+import StudentStateExample from './StudentStateExample';
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
       {/* <StudentPropsParentComponentClass /> */}
       {/* <StudentState /> */}
       {/* <StudentUseState /> */}
-      <StudentStateClass />
+      {/* <StudentStateClass /> */}
+      {/* <StudentGetInputBoxData /> */}
+      {/* <StudentGetInputBoxDataButton /> */}
+      <StudentStateExample />
     </div>
   );
 }
