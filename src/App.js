@@ -12,6 +12,7 @@ import StudentStateClass from './StudentStateClass';
 import StudentGetInputBoxData from './StudentGetInputBoxData';
 import StudentGetInputBoxDataButton from './StudentGetInputBoxDataButton';
 import StudentStateExample from './StudentStateExample';
+import StudentStateExampleClass from './StudentStateExampleClass';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <StudentStateClass /> */}
       {/* <StudentGetInputBoxData /> */}
       {/* <StudentGetInputBoxDataButton /> */}
-      <StudentStateExample />
+      {/* <StudentStateExample /> */}
+      <StudentStateExampleClass />
     </div>
   );
 }
