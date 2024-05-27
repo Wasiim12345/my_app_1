@@ -13,6 +13,8 @@ import StudentGetInputBoxData from './StudentGetInputBoxData';
 import StudentGetInputBoxDataButton from './StudentGetInputBoxDataButton';
 import StudentStateExample from './StudentStateExample';
 import StudentStateExampleClass from './StudentStateExampleClass';
+import StudentShowHide from './StudentShowHide';
+import StudentForm from './StudentForm';
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
       {/* <StudentGetInputBoxData /> */}
       {/* <StudentGetInputBoxDataButton /> */}
       {/* <StudentStateExample /> */}
-      <StudentStateExampleClass />
+      {/* <StudentStateExampleClass /> */}
+      {/* <StudentShowHide /> */}
+      <StudentForm />
     </div>
   );
 }
