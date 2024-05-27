@@ -15,6 +15,7 @@ import StudentStateExample from './StudentStateExample';
 import StudentStateExampleClass from './StudentStateExampleClass';
 import StudentShowHide from './StudentShowHide';
 import StudentForm from './StudentForm';
+import StudentFormClass from './StudentFormClass';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       {/* <StudentStateExample /> */}
       {/* <StudentStateExampleClass /> */}
       {/* <StudentShowHide /> */}
-      <StudentForm />
+      {/* <StudentForm /> */}
+      <StudentFormClass />
     </div>
   );
 }
