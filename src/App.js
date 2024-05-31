@@ -17,6 +17,7 @@ import StudentShowHide from './StudentShowHide';
 import StudentForm from './StudentForm';
 import StudentFormClass from './StudentFormClass';
 import StudentParentGetData from './StudentParentGetData';
+import ReactLifeCycleMethodClass from './ReactLifeCycleMethodClass';
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <StudentShowHide /> */}
       {/* <StudentForm /> */}
       {/* <StudentFormClass /> */}
-      <StudentParentGetData />
+      {/* <StudentParentGetData /> */}
+      <ReactLifeCycleMethodClass />
     </div>
   );
 }
