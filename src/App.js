@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import StudentComponent from './StudentComponent';
 import StudentComponentClass from './StudentComponentClass';
-import StudnetFunctionEvent from './StudentFunctionEvent';
+import StudentFunctionEvent from './StudentFunctionEvent';
 import StudentFunctionEventClass from './StudentFunctionEventClass';
 import StudentPropsParentComponent from './StudentPropsParentComponent';
 import StudentPropsParentComponentClass from './StudentPropsParentComponentClass';
@@ -16,6 +16,7 @@ import StudentStateExampleClass from './StudentStateExampleClass';
 import StudentShowHide from './StudentShowHide';
 import StudentForm from './StudentForm';
 import StudentFormClass from './StudentFormClass';
+import StudentParentGetData from './StudentParentGetData';
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <StudentStateExampleClass /> */}
       {/* <StudentShowHide /> */}
       {/* <StudentForm /> */}
-      <StudentFormClass />
+      {/* <StudentFormClass /> */}
+      <StudentParentGetData />
     </div>
   );
 }
