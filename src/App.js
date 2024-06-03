@@ -18,8 +18,11 @@ import StudentForm from './StudentForm';
 import StudentFormClass from './StudentFormClass';
 import StudentParentGetData from './StudentParentGetData';
 import ReactLifeCycleMethodClass from './ReactLifeCycleMethodClass';
+import { useState } from 'react';
+import StudentComponentWillUnmount from './StudentComponentWillUnmount';
 
 function App() {
+  // const [data, setData] = useState(1)
   return (
     <div className="App">
       {/* <StudentComponent /> */}
@@ -39,7 +42,10 @@ function App() {
       {/* <StudentForm /> */}
       {/* <StudentFormClass /> */}
       {/* <StudentParentGetData /> */}
+      {/* <ReactLifeCycleMethodClass passData={data}/> */}
+      {/* <button onClick={() => setData(data+1)}>Update Props</button> */}
       <ReactLifeCycleMethodClass />
+      {/* <StudentComponentWillUnmount /> */}
     </div>
   );
 }
