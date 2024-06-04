@@ -20,6 +20,8 @@ import StudentParentGetData from './StudentParentGetData';
 import ReactLifeCycleMethodClass from './ReactLifeCycleMethodClass';
 import { useState } from 'react';
 import StudentComponentWillUnmount from './StudentComponentWillUnmount';
+import StudentUseEffect from './StudentUseEffect';
+import StudentLifeCycleMethod from './ReactLifeCycleMethod';
 
 function App() {
   // const [data, setData] = useState(1)
@@ -44,8 +46,10 @@ function App() {
       {/* <StudentParentGetData /> */}
       {/* <ReactLifeCycleMethodClass passData={data}/> */}
       {/* <button onClick={() => setData(data+1)}>Update Props</button> */}
-      <ReactLifeCycleMethodClass />
+      {/* <ReactLifeCycleMethodClass /> */}
       {/* <StudentComponentWillUnmount /> */}
+      {/* <StudentUseEffect /> */}
+      <StudentLifeCycleMethod />
     </div>
   );
 }
