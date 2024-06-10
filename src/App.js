@@ -22,6 +22,8 @@ import { useState } from 'react';
 import StudentComponentWillUnmount from './StudentComponentWillUnmount';
 import StudentUseEffect from './StudentUseEffect';
 import StudentLifeCycleMethod from './ReactLifeCycleMethod';
+import StudentComponentStyle from './StudentComponentStyle';
+import StudentPureComponentClass from './StudentPureComponentClass';
 
 function App() {
   // const [data, setData] = useState(1)
@@ -49,7 +51,9 @@ function App() {
       {/* <ReactLifeCycleMethodClass /> */}
       {/* <StudentComponentWillUnmount /> */}
       {/* <StudentUseEffect /> */}
-      <StudentLifeCycleMethod />
+      {/* <StudentLifeCycleMethod /> */}
+      {/* <StudentComponentStyle /> */}
+      <StudentPureComponentClass />
     </div>
   );
 }
