@@ -5,7 +5,7 @@ class StudentPureComponentClass extends PureComponent{
     constructor() {
         super();
         this.state = {
-            count: 1
+            count: 0
         }
     }
     updateFunc(){

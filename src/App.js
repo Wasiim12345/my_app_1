@@ -24,6 +24,9 @@ import StudentUseEffect from './StudentUseEffect';
 import StudentLifeCycleMethod from './ReactLifeCycleMethod';
 import StudentComponentStyle from './StudentComponentStyle';
 import StudentPureComponentClass from './StudentPureComponentClass';
+import StudentUseMemo from './StudentUseMemo';
+import StudentRefClass from './StudentRefClass';
+import StudentUseRef from './StudentUseRef';
 
 function App() {
   // const [data, setData] = useState(1)
@@ -53,7 +56,10 @@ function App() {
       {/* <StudentUseEffect /> */}
       {/* <StudentLifeCycleMethod /> */}
       {/* <StudentComponentStyle /> */}
-      <StudentPureComponentClass />
+      {/* <StudentPureComponentClass /> */}
+      {/* <StudentUseMemo /> */}
+      {/* <StudentRefClass /> */}
+      <StudentUseRef />
     </div>
   );
 }
