@@ -27,6 +27,7 @@ import StudentPureComponentClass from './StudentPureComponentClass';
 import StudentUseMemo from './StudentUseMemo';
 import StudentRefClass from './StudentRefClass';
 import StudentUseRef from './StudentUseRef';
+import ForwardRefParent from './ForwardRefParent';
 
 function App() {
   // const [data, setData] = useState(1)
@@ -59,7 +60,8 @@ function App() {
       {/* <StudentPureComponentClass /> */}
       {/* <StudentUseMemo /> */}
       {/* <StudentRefClass /> */}
-      <StudentUseRef />
+      {/* <StudentUseRef /> */}
+      <ForwardRefParent />
     </div>
   );
 }
