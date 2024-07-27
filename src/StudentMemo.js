@@ -4,7 +4,7 @@ import StudentMemoChild from "./StudentMemoChild";
 function StudentMemoComponent() {
 
     const [add, setAdd] = useState(0);
-    const [item, setItem] =useState(["item 1", "item 2"]);
+    const [item, setItem] =useState(["item 1", "item 2", "item 3"]);
 
     function addFunc(){
         console.log("addFunc is working...");

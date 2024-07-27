@@ -29,6 +29,9 @@ import StudentRefClass from './StudentRefClass';
 import StudentUseRef from './StudentUseRef';
 import ForwardRefParent from './ForwardRefParent';
 import StudentMemoComponent from './StudentMemo';
+import StudentUseCallback from './StudentUseCallback';
+import StudentRouting from './StudentRouting';
+import StudentLazyLoadingCodeSplitting from './StudentLazyLoadingCodeSplitting';
 
 function App() {
   // const [data, setData] = useState(1)
@@ -63,7 +66,10 @@ function App() {
       {/* <StudentRefClass /> */}
       {/* <StudentUseRef /> */}
       {/* <ForwardRefParent /> */}
-      <StudentMemoComponent />
+      {/* <StudentMemoComponent /> */}
+      {/* <StudentUseCallback /> */}
+      {/* <StudentRouting /> */}
+      <StudentLazyLoadingCodeSplitting />
     </div>
   );
 }
