@@ -32,6 +32,7 @@ import StudentMemoComponent from './StudentMemo';
 import StudentUseCallback from './StudentUseCallback';
 import StudentRouting from './StudentRouting';
 import StudentLazyLoadingCodeSplitting from './StudentLazyLoadingCodeSplitting';
+import ComponentA from './ComponentA';
 
 function App() {
   // const [data, setData] = useState(1)
@@ -69,7 +70,8 @@ function App() {
       {/* <StudentMemoComponent /> */}
       {/* <StudentUseCallback /> */}
       {/* <StudentRouting /> */}
-      <StudentLazyLoadingCodeSplitting />
+      {/* <StudentLazyLoadingCodeSplitting /> */}
+      <ComponentA />
     </div>
   );
 }
